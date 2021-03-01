@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("./assets/images/co-vietnam.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+a {
+    font-size: 1.25em;
+}
+
+.container {
+    padding: 1em;
+}
+
+.title {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.red-bg {
+    background-color: red;
+}
+
+.purple-bg {
+    background-color: purple;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.red-color {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.to-top {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 9999;
+}
+
+.img-to-top {
+    width: 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.w-15em {
+    width: 15em;
+}
+
+.width-vw {
+    width: 30vw;
+    display: block;
+    margin: auto;
+}
+
+.w-300px {
+    width: 300px;
+}
+
+.margin-left-1em {
+    margin-left: 1em;
+}
+
+.margin-right-1em {
+    margin-right: 1em;
+}
+
+.margin-top-1em {
+    margin-top: 1em;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-center {
+    width: 60vw;
+    display: block;
+}
+
+.first-character {
+    float: left;
+    height: 80px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.split-col {
+    column-count: 3;
+    column-rule: 2px dashed gray;
+}
+
+@media only screen and (max-width: 1000px) {
+    .split-col {
+        column-count: 2;
+    }
+    .width-vw {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .float-left {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .float-right {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .img-center {
+        width: 94vw;
+    }
+    .w-15em {
+        width: 80vw;
+    }
+    .w-300px {
+        width: 80vw;
+    }
+    .split-col {
+        column-count: 1;
+    }
+    .width-vw {
+        width: 80vw;
+    }
+}

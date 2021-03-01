@@ -1,0 +1,72 @@
+h1 {
+    color: blue;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.div_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+table {
+    width: 800px;
+    height: 700px;
+    box-shadow: 4px 5px 6px rgba(25, 39, 238, 0.753);
+    background-color: rgba(231, 243, 247, 0.26);
+    border: blue solid 1px;
+    border-collapse: collapse;
+    color: blue;
+}
+
+td {
+    padding: 5px;
+}
+
+.td1 {
+    width: 300px;
+}
+
+td {
+    border: blue solid 1px;
+}
+
+#idname {
+    width: 80%;
+    height: 20px;
+}
+
+#dc {
+    width: 90%;
+}
+
+#idphone {
+    width: 40%;
+    height: 20px;
+}
+
+#tour {
+    width: 60%;
+    height: 30px;
+}
+
+fieldset {
+    width: 60%;
+    height: 50px;
+}
+
+#nguoilon,
+#treem {
+    width: 30%;
+    height: 20px;
+    margin-left: 4px;
+}
+
+#dongy {
+    font-size: 15px;
+}
+
+#thongbao {
+    color: red;
+    font-weight: bold;
+    font-size: 18pt;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(155, 148, 152, 0.425);
+    font-size: 18px;
+}
+
+.dayso {
+    margin: 50px auto;
+    width: 800px;
+    text-align: left;
+    background-color: rgba(196, 112, 179, 0.466);
+    border: 5px solid white;
+}
+
+#form-conatiner,
+.tbform {
+    width: 800px;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(206, 139, 38);
+}
+
+td {
+    padding: 5px;
+}
+
+#start,
+#end {
+    width: 80px;
+}
+
+input {
+    height: 25px;
+}
+
+input[type="number"][readonly] {
+    width: 200px;
+}
+
+.td_white {
+    padding-top: 6px;
+    background-color: white;
+}
+
+#container-btn {
+    text-align: center;
+}
+
+#btn-result {
+    background-color: rgb(206, 139, 38);
+    font-size: 18px;
+}
+
+#btn-result:hover {
+    filter: brightness(1.2);
+}

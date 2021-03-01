@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính năm âm lịch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(OnSubmit())" action="#">
+        <h1 id="title">Tính năm âm lịch</h1>
+        <table>
+            <colgroup>
+                <col span="1" style="width: 30%;">
+                <col span="1" style="width: 30%;">
+                <col span="1" style="width: 30%;">
+            </colgroup>
+            <tr>
+                <td>
+                    <label name="duong-lich">Năm dương lịch</label>
+                    <input id="duong-lich" type="number" min="0">
+                </td>
+                <td id="container-btn">
+                    <button id="btn-result">
+                        >>
+                    </button>
+                </td>
+                <td>
+                    <label name="am-lich">Năm âm lịch</label>
+                    <input id="am-lich" readonly="readonly">
+                </td>
+            </tr>
+            <tr>
+                <td id="contain-img" colspan="3">
+                    <img id="img">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

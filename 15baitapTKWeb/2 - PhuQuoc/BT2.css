@@ -1,0 +1,41 @@
+body {
+    background-image: url(hoang-hon-phu-quoc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    padding: 60px 250px 0 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.p_1 {
+    font-style: italic;
+    font-size: 17px;
+}
+
+.h3_1 {
+    color: red;
+}
+
+.h3_2 {
+    color: orange;
+}
+
+.h3_3 {
+    color: green;
+}
+
+.h3_4 {
+    color: #ff00FF;
+}
+
+.p_2 {
+    text-indent: 60px;
+}

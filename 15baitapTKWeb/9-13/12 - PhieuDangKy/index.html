@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 - Phiếu đăng ký</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./functions.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <form class="form-display" action="./success.html">
+            <label for="fname">Họ tên:</label>
+            <input type="text" id="fname" name="fname" required/>
+
+            <label for="diachi">Địa chỉ:</label>
+            <textarea id="diachi" name="diachi"></textarea>
+
+            <label for="sdt">Điện thoại:</label>
+            <input type="tel" id="sdt" name="sdt" />
+
+            <label for="gioitinh">Giới tính:</label>
+            <div>
+                <input type="radio" id="gender" name="gender" value="male" checked="checked" />
+                <label for="male">Nam</label>
+                <input type="radio" id="gender" name="gender" value="female" />
+                <label for="female">Nữ</label>
+            </div>
+
+            <label for="nghenghiep">Nghề nghiệp:</label>
+            <select name="nghenghiep" id="nghenghiep">
+                <option value="doctor">Bác sĩ</option>
+                <option value="engineer">Kỹ sư</option>
+                <option value="teacher">Giáo viên</option>
+                <option value="other">Khác</option>
+            </select>
+
+            <label for="sanpham">Chọn sản phẩm tham gia:</label>
+            <select name="sanpham" id="sanpham" multiple="multiple">
+                <option value="1">Kem đánh răng</option>
+                <option value="2">Bột giặt</option>
+                <option value="3">Dầu gội đầu</option>
+                <option value="4">Sữa tắm</option>
+            </select>
+
+            <label for="dudoan">Số người dự đoán tham gia:</label>
+            <input type="number" id="dudoan" name="dudoan" min="0" />
+
+            <input class="span-2 button_submit" type="button" value="Đồng ý" onclick="submitHandle()" />
+            <p id="notification"></p>
+        </form>
+    </div>
+</body>
+
+</html>

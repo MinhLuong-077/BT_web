@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>13 Đặt tour</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./functions.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <table id="container">
+            <tr>
+                <td id="contain_img">
+                    <h1 id="slogan">DU LỊCH VIỆT NAM</h1>
+                </td>
+                <td id="contain_form">
+                    <h2 id="title">ĐĂNG KÝ DU LỊCH</h2>
+                    <form class="form-display">
+                        <label class="label_flex" for="name">Họ tên</label>
+                        <input type="text" id="name" name="name" />
+
+                        <label class="label_flex" for="diachi">Địa chỉ</label>
+                        <textarea id="diachi" name="diachi"></textarea>
+
+                        <label class="label_flex" for="sdt">Điện thoại</label>
+                        <input id="sdt" type="tel" name="sdt" />
+
+                        <label class="label_flex" for="vietnam">Khách Việt Nam</label>
+                        <input id="khachVN" class="label_flex" type="checkbox" name="vietnam" />
+
+                        <label class="label_flex" for="tour">Chọn tour</label>
+                        <select name="tour" id="tour">
+                <optgroup label="Miền Bắc">
+                  <option value="1">Hà Nội - Hạ Long - Sapa</option>
+                  <option value="2">Hà Nội - Chùa Hương - Ninh Bình</option>
+                  <option value="3">Hà Nội - Cát Bà - Tuần Châu</option>
+                </optgroup>
+                <optgroup label="Miền Trung">
+                    <option value="4">Huế - Bạch Mã - Đà Nẵng</option>
+                    <option value="5">Nha Trang - Đà Lạt</option>
+                    <option value="6">Buôn Mê Thuột - Gia Lai - Kontum</option>
+                </optgroup>
+                <optgroup label="Miền Nam">
+                    <option value="7">TpHCM - Cần Thơ - Cà Mau</option>
+                    <option value="8">Phú Quốc - Côn Đảo</option>
+                </optgroup>                
+              </select>
+
+                        <label class="label_flex" for="phuongtien">Phương tiện</label>
+                        <div>
+                            <input type="radio" id="maybay" name="phuongtien" value="maybay" />
+                            <label for="maybay">Máy bay</label><br />
+                            <input type="radio" id="xedulich" name="phuongtien" value="xedulich" />
+                            <label for="xedulich">Xe du lịch</label><br />
+                        </div>
+
+                        <fieldset class="span-2">
+                            <legend>Số lượng đoàn khách</legend>
+
+                            <table id="sl-doankhach">
+                                <col style="width: 50%" />
+                                <col style="width: 50%" />
+                                <tbody>
+                                    <tr class="m-10">
+                                        <td><label for="nguoilon">Người lớn</label></td>
+                                        <td>
+                                            <input type="number" id="nguoilon" name="nguoilon" min="0" />
+                                        </td>
+                                    </tr>
+                                    <tr class="m-10">
+                                        <td><label for="treem">Trẻ em</label></td>
+                                        <td>
+                                            <input type="number" id="treem" name="treem" min="0" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+
+                        <label class="label_flex" for="ghichu">Ghi chú thêm</label>
+                        <textarea id="ghichu" name="ghichu"></textarea>
+
+                        <input class="span-2 button" style="width: 150px; margin: auto" type="button" value="Đồng ý" onclick="submitHandle()" />
+                        <p id="notification"></p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

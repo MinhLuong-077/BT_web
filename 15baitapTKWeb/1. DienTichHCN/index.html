@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính diện tích HCN</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(OnSubmit())" action="#">
+        <label id="title">DIỆN TÍCH HÌNH CHỮ NHẬT</label>
+        <table>
+            <colgroup>
+                <col span="1" style="width: 30%;">
+                <col span="1" style="width: 70%;">
+            </colgroup>
+            <tr>
+                <td>
+                    <p>Chiều dài:</p>
+                </td>
+                <td>
+                    <input id="val-height" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Chiều rộng:</p>
+                </td>
+                <td>
+                    <input id="val-width" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Diện tích:</p>
+                </td>
+                <td>
+                    <input id="val-area" readonly="readonly" />
+                </td>
+            </tr>
+        </table>
+        <button id="btn-cal">Tính</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

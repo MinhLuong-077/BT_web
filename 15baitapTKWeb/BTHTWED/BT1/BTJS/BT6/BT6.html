@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng cửu chương</title>
+    <link rel="stylesheet" href="./BT6.css">
+    <script src="./BT6.js"></script>
+</head>
+
+<body>
+    <div class="formcuuchuong">
+        <h1 id="title">Bảng cửu chương</h1>
+        <form id="form-conatiner" onsubmit="return(InBangCC());">
+            <table class="tableform">
+                <tr>
+                    <td>
+                        <p>Bắt đầu từ:</p>
+                    </td>
+                    <td>
+                        <input id="start" type="number" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Kết thúc tại:</p>
+                    </td>
+                    <td>
+                        <input id="end" type="number" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="container-btn" colspan="2">
+
+                        <input type="submit" id="btn-result" value="In bảng cửu chương" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <p class="loisai" id="loi"></p>
+    <p id="result">
+    </p>
+</body>
+
+</html>

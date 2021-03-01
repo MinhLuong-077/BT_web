@@ -1,0 +1,19 @@
+h1 {
+    color: white;
+    background-color: rgb(241, 14, 230);
+    padding: 10px;
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    flex: 1;
+    font-size: 18pt;
+}
+
+.img_2 {
+    width: 550px;
+    height: 300px;
+    margin-left: 25px;
+}

@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: rgba(155, 148, 152, 0.425);
+}
+
+.ngaytrongthang {
+    margin: 50px auto;
+    width: 900px;
+    text-align: left;
+    background-color: rgba(196, 112, 179, 0.466);
+    border: 5px solid white;
+    width: 500px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(240, 71, 71);
+}
+
+#form-conatiner {
+    padding: 10px;
+}
+
+.thangnam {
+    margin-right: 50px;
+}
+
+input[type="text"] {
+    height: 25px;
+    width: 80px;
+}
+
+input[type="text"][readonly] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#container-btn {
+    font-size: 15px;
+    text-align: right;
+}
+
+#btn-result {
+    margin-top: 10px;
+    width: 120px;
+    height: 25px;
+    font-size: 17px;
+    border: 3px inset #fffdfd;
+}
+
+#ketqua {
+    border: 3px inset #fffdfd;
+    color: red;
+}

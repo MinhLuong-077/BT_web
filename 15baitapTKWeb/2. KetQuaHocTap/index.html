@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả học tập</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(OnSubmit())" action="#">
+        <label id="title">KẾT QUẢ HỌC TẬP</label>
+        <table>
+            <colgroup>
+                <col span="1" style="width: 40%;">
+                <col span="1" style="width: 50%;">
+            </colgroup>
+            <tr>
+                <td>
+                    <p>Điểm HK1:</p>
+                </td>
+                <td>
+                    <input id="hk1" type="number" step="0.1" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Điểm HK2:</p>
+                </td>
+                <td>
+                    <input id="hk2" type="number" step="0.1" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Điểm trung bình:</p>
+                </td>
+                <td>
+                    <input id="dtb" type="number" step="0.01" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Kết quả:</p>
+                </td>
+                <td>
+                    <input id="kq" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Xếp loại học lực:</p>
+                </td>
+                <td>
+                    <input id="xl" readonly="readonly" />
+                </td>
+            </tr>
+        </table>
+        <button id="btn-result">Xem kết quả</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính ngày trong tháng</title>
+    <link rel="stylesheet" href="./BT4.css">
+    <script src="./BT4.js"></script>
+</head>
+
+<body>
+    <div class="ngaytrongthang">
+        <h1 id="title">TÍNH NGÀY TRONG THÁNG</h1>
+        <form id="form-conatiner" onsubmit="return(OnSubmit());" action="#">
+
+            <table>
+                <tr>
+                    <td>
+                        <label class="thangnam">Tháng/Năm:</label>
+                    </td>
+                    <td>
+                        <input id="month" type="text" min="1" max="12" required/> /
+                        <input id="year" type="text" min="1" required/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="container-btn" colspan="2">
+                        <input type="submit" id="btn-result" value="Tính số ngày" />
+                    </td>
+                </tr>
+            </table>
+            <div class="result">
+                <input id="ketqua" type="text" readonly/>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    display: flex;
+}
+
+div {
+    margin: auto;
+}
+
+table {
+    border: 2px solid rgba(30, 199, 115, 0.568);
+    border-collapse: collapse;
+    margin-top: 100px;
+    width: 800px;
+    height: 400px;
+    color: #000;
+    table-layout: fixed;
+}
+
+td {
+    vertical-align: left;
+    font-weight: bold;
+    border: 1px rgba(5, 129, 43, 0.747) solid;
+    padding-left: 4px;
+}
+
+tr:nth-child(odd) {
+    background: rgba(92, 194, 143, 0.568);
+}
+
+tr:nth-child(even) {
+    background: rgba(95, 172, 125, 0.24);
+}
+
+tr:nth-child(1) {
+    background-color: rgba(4, 199, 62, 0.884);
+    color: white;
+}

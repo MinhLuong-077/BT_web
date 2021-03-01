@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BT12.css">
+    <script src="BT12.js">
+    </script>
+</head>
+
+<body>y
+    <div class="div1">
+        <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td class="td1">Họ tên:</td>
+                    <td class="td2"><input type="text" id="idname" name="Hoten"></td>
+                </tr>
+                <tr>
+                    <td class="td1">Địa chỉ:</td>
+                    <td class="td2"><textarea name="" id="dc" cols="40" rows="10" required="required"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="td1">Điện thoại:</td>
+                    <td class="td2"><input type="text" onkeypress=" return event.charCode >= 48 && event.charCode <= 57" name="phone" id="idphone"></td>
+                </tr>
+                <tr>
+                    <td class="td1">Giới tính:</td>
+                    <td class="td2"><input type="radio" name="gioitinh" id="gender" value="male" checked="checked">Nam<input type="radio" name="gioitinh" id="gender" value="female">Nữ</td>
+                </tr>
+                <tr>
+                    <td class="td1">Nghề nghiệp:</td>
+                    <td class="td2">
+                        <select name="nghenghiep" id="nghenghiep">
+                            <option value="1" >Bác sĩ</option>
+                            <option value="2">Kỹ sư</option>
+                            <option value="3">Giáo viên</option>
+                            <option value="4" selected="selected">Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">Chọn sản phẩm tham gia:</td>
+                    <td class="td2">
+                        <select name="sanpham" id="sanpham" multiple>
+                            <option value="1" >Kem đánh răng</option>
+                            <option value="2">Bột giặt</option>
+                            <option value="3">Dầu gội đầu</option>
+                            <option value="4" selected="selected">Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">Số người dự đoán tham gia:</td>
+                    <td class="td2"><input type="number" name="songuoi" id="songuoi"></td>
+                </tr>
+                <tr>
+                    <td class="td9" colspan="2"><input type="button" value="Đồng ý" onclick="thongBao()" id="dongy"></td>
+                </tr>
+                <tr>
+                    <td class="td10" colspan="2"><span id="thongbao"></span></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

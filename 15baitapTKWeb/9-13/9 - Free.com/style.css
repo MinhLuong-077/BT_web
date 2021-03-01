@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("./assets/fonts/DTCRoughM22.ttf");
+}
+
+body {
+    background-color: #3067a0;
+    margin: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #316690;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+.logo {
+    width: 15em;
+}
+
+.banner {
+    width: 60%;
+}
+
+.container-join-logo-1 {
+    margin: 1em;
+}
+
+.join-logo {
+    margin: auto;
+    width: 30vw;
+}
+
+.highlight {
+    color: red;
+    text-decoration: underline;
+}
+
+.img-button {
+    display: block;
+    width: 10em;
+    margin: 1em;
+}
+
+.flex-spacing {
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.footer p {
+    color: black;
+}

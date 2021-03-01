@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính ngày trong tháng</title>
+    <link rel="stylesheet" href="./BT7.css">
+    <script src="./BT7.js"></script>
+</head>
+
+<body>
+    <div class="ngaytrongthang">
+        <h1 id="title">ĐỌC SỐ</h1>
+        <form id="form-conatiner" onsubmit="return(DocSo());" action="#">
+
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <label class="thangnam">Nhập số (0->999)</label>
+                    </td>
+
+                    <td> <input id="Nhap" type="number" required/> </td>
+                    <td><input type="submit" id="btn-result" value="Đọc số" /> </td>
+
+                </tr>
+                <tr class="result">
+                    <td colspan="2"> <label class="thangnam">Bằng chữ</label> </td>
+                    <td colspan="2"><input id="ketqua" type="text" readonly/> </td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

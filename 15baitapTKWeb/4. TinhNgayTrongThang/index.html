@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính ngày trong tháng</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(OnSubmit());" action="#">
+        <label id="title">Tính ngày trong tháng</label>
+        <table>
+            <tr>
+                <td>
+                    <p>Tháng:</p>
+                </td>
+                <td>
+                    <input id="month" type="number" min="1" max="12" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Năm:</p>
+                </td>
+                <td>
+                    <input id="year" type="number" min="1" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="container-btn" colspan="2">
+                    <input type="submit" id="btn-result" value="Tính số ngày" />
+
+                </td>
+            </tr>
+        </table>
+        <p id="result"></p>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

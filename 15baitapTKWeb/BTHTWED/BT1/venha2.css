@@ -1,0 +1,36 @@
+nav {
+    height: 90px;
+    background-image: linear-gradient(0, #fe6433, #f53e2d);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+a:link,
+a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+a:hover,
+a:active {
+    background-color: #7a991a;
+}

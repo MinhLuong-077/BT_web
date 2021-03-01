@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title> IE104 </title>
+</head>
+
+<body>
+    <p id="intro"> Hello World 0</p>
+    <input type="button" value="Background" onclick="changeBackground()" />
+    <input type="button" value="Reset" onclick="removeBackground()" />
+    <script>
+        function changeBackground() {
+            p = document.getElementById("intro").style.background = "#974FFF url(smile.png)";
+        }
+
+        function removeBackground() {
+            p = document.getElementById("intro").style.background = "";
+        }
+    </script>
+</body>
+
+</html>

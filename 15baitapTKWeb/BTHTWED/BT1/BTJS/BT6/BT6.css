@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #AFA98D;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formcuuchuong {
+    width: 600px;
+    margin: 10px auto;
+}
+
+#form-conatiner {
+    background-color: #3fb0ec;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+}
+
+table {
+    width: 100%;
+    /* background-color: #0FF4C6; */
+}
+
+#title {
+    font-size: 1.8em;
+    color: #8E9C97;
+    border: 2px solid #3c98c9;
+}
+
+p {
+    /* width: 100%; */
+    color: #000000;
+}
+
+#inline-input {
+    display: inline;
+}
+
+input {
+    font-size: 1.3em;
+    border-radius: 2px;
+    background-color: #fdfeff;
+    color: #000000;
+    margin-top: 10px;
+    border-top: 4px inset #000000;
+    border-left: 4px inset #050505;
+    border-bottom: 4px inset #c2c0c0;
+    border-right: 4px inset #b3b0b0;
+}
+
+#btn-result {
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: #8E9C97;
+    color: #FFFACD;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 2.5px inset #ffffff;
+    border-left: 2.5px inset #ffffff;
+    border-bottom: 2.5px inset #111111;
+    border-right: 2.5px inset #0e0d0d;
+}
+
+#btn-result:hover {
+    filter: brightness(1.2);
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+td {
+    /* margin: 10px; */
+    /* padding: 0px 20px; */
+    /* background-color: #bea618; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+}
+
+#container-btn {
+    justify-content: flex-end;
+}
+
+#contain-img {
+    width: 100%;
+    padding: 0px;
+}
+
+#result {
+    width: fit-content;
+    margin: auto;
+    padding: 0.1%;
+}
+
+.loisai {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+#bcc {
+    display: inline-block;
+    margin: 1px;
+    background-color: #8E9C97;
+    border: 2px solid rgb(10, 109, 104);
+    box-sizing: padding-box;
+    width: 150px;
+    padding: 2px 8.2px;
+}

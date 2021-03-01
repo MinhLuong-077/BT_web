@@ -1,0 +1,40 @@
+body {
+    background-image: url(./hinh/co-vietnam.png), url(./hinh/co-vietnam.png);
+    background-repeat: no-repeat, no-repeat;
+    font-size: 13pt;
+    background-position: 50% 130px, 50% 600px;
+}
+
+body ul {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+body img {
+    float: left;
+}
+
+.img_1 {
+    width: 220px;
+    height: 430px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.img_2 {
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+
+footer {
+    text-align: right;
+}
+
+a:hover {
+    color: blue;
+}

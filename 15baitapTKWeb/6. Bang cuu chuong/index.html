@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng cửu chương</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(InBangCC());" action="#">
+        <h1 id="title">Bảng cửu chương</h1>
+        <table>
+            <colgroup>
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 80%;">
+            </colgroup>
+            <tr>
+                <td>
+                    <p>Bắt đầu từ:</p>
+                </td>
+                <td>
+                    <input id="start" type="number" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Kết thúc tại:</p>
+                </td>
+                <td>
+                    <input id="end" type="number" required/>
+                </td>
+            </tr>
+            <tr>
+                <td id="container-btn" colspan="2">
+                    <input type="submit" id="btn-result" value="In bảng cửu chương" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="result">
+        <p>Nơi hiển thị kết quả</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

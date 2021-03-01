@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính toán trên dãy số</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="form-conatiner" onsubmit="return(OnSubmit());" action="#">
+        <h1 id="title">Tính toán trên dãy số</h1>
+        <table>
+            <colgroup>
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 80%;">
+            </colgroup>
+            <tr>
+                <td colspan="2">
+                    <h2>Giới hạn của dãy số</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Số bắt đầu:</p>
+                </td>
+                <td>
+                    <input id="start" type="number" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Số kết thúc:</p>
+                </td>
+                <td>
+                    <input id="end" type="number" required/>
+                </td>
+            </tr>
+
+
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <tr>
+                <td colspan="2">
+                    <h2>Kết quả</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tổng các số:</p>
+                </td>
+                <td>
+                    <input id="sum" type="number" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tích các số:</p>
+                </td>
+                <td>
+                    <input id="multiple" type="number" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tổng các số chẵn:</p>
+                </td>
+                <td>
+                    <input id="sum-even" type="number" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tổng các số lẽ:</p>
+                </td>
+                <td>
+                    <input id="sum-old" type="number" readonly="readonly" />
+                </td>
+            </tr>
+
+            <tr>
+                <td id="container-btn" colspan="2">
+                    <input type="submit" id="btn-result" value="Tính toán" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

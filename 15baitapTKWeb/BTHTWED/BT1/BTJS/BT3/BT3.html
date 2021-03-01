@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính năm âm lịch</title>
+    <link rel="stylesheet" href="./BT3.css">
+    <script src="./BT3.js"></script>
+</head>
+
+<body>
+    <div class="formntt">
+        <h1 id="title">Tính năm âm lịch</h1>
+        <form id="form-conatiner" onsubmit=" return (OnSubmit());" action="#">
+
+            <table>
+                <tr>
+                    <td>
+                        <label name="duong-lich">Năm dương lịch</label>
+                        <input id="start" type="text" onkeypress=" return (event.charCode >= 48 && event.charCode <= 57)" required>
+                    </td>
+                    <td>
+                        <label name="duong">Năm dương lịch</label>
+                        <input id="end" type="text" onkeypress=" return (event.charCode >= 48 && event.charCode <= 57)" required>
+                    </td>
+                    <td id="container-btn">
+                        <button id="btn-result">
+                        =>
+                    </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="contain-img">
+                        <img id="img">
+
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 0px 4px blue;
+    text-align: center;
+    font-size: 30pt;
+}
+
+table {
+    width: 650px;
+    height: 600px;
+    box-shadow: 4px 5px 6px rgba(25, 39, 238, 0.753);
+    background-image: url(./hinh/khuyen-mai.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: rgba(71, 213, 248, 0.26);
+    margin: 0 auto;
+}
+
+.td1 {
+    width: 250px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.td2 {
+    font-size: 17px;
+}
+
+.td9,
+.td10 {
+    text-align: center;
+}
+
+#idname,
+#idphone,
+#nghenghiep,
+#sanpham,
+#songuoi,
+#dc {
+    background-color: rgba(21, 162, 197, 0.308);
+    border-radius: 10px;
+    border: rgb(27, 27, 235) dotted 2px;
+}
+
+#idname {
+    width: 80%;
+    height: 20px;
+}
+
+#dc {
+    height: 100px;
+    width: 90%;
+}
+
+#idphone {
+    width: 60%;
+    height: 20px;
+}
+
+#nghenghiep {
+    width: 30%;
+    height: 25px;
+}
+
+#sanpham {
+    width: 50%;
+}
+
+#songuoi {
+    width: 40%;
+    height: 20px;
+}
+
+#dongy {
+    font-weight: bold;
+    width: 110px;
+    height: 30px;
+    border-radius: 12px;
+    color: white;
+    background-image: linear-gradient( rgb(19, 19, 204), rgb(121, 121, 204));
+}
+
+#thongbao {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}

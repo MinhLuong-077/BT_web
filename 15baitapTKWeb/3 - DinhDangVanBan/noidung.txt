@@ -1,0 +1,8 @@
+﻿Định dạng văn bản
+Hóa học: Nước: H2O; Axit Sunfuric: H2SO4
+Toán học: Phương trình bậc 2: ax2 + bx + c = 0
+Tin học: Vòng lặp for:
+int tong = 0;
+for(int i = 1; i <= 10; i++)
+	tong += i; 
+printf("Tong cac so tu 1 => 10 la: %d\n",tong);

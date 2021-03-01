@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./hinh/truong_day_thiet_ke_do_hoa.jpg), url(./hinh/nguyen-tac-trong-thiet-ke-do-hoa.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 380px 380px, right top;
+    margin-top: 140px;
+}
+
+h1 {
+    text-align: center;
+    color: #00FF00;
+}
+
+table {
+    width: 650px;
+    height: 400px;
+    border: 5px solid #00FF00;
+    border-spacing: 3px;
+}
+
+.tr_1 {
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+
+.th_1 {
+    width: 45px;
+}
+
+.th_2 {
+    width: 250px;
+}
+
+.th_4 {
+    width: 85px;
+}
+
+.th_5 {
+    width: 90px;
+}
+
+.td_1,
+.th_1,
+.th_2,
+.th_3,
+.th_4,
+.th_5 {
+    vertical-align: middle;
+}
+
+.td_2 {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tr_3 {
+    background-color: #99FFFF;
+}
+
+.tr_4 {
+    background-color: #FF9900;
+}
+
+td,
+th {
+    border: 1px #00FF00 solid;
+}

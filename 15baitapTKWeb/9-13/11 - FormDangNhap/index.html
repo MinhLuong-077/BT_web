@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11 - Form Đăng Nhập</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./functions.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form đăng nhập</h1>
+        <form action="./success.html">
+            <label for="name">Tên người dùng:</label>
+            <input type="text" id="name" name="name" value="" required/>
+
+            <label for="lpass">Mật khẩu:</label>
+            <input type="password" id="lpass" name="lpass" value="" required/>
+
+            <div class="span-2 group_button">
+                <input class="button_red" type="button" value="In câu chào" onclick="printHello()" />
+                <input class="button_red" type="submit" value="Gửi thông tin" />
+                <input class="button_red" type="reset" value="Làm lại" />
+            </div>
+            <p id="printLine" class="span-2"></p>
+        </form>
+    </div>
+</body>
+
+</html>

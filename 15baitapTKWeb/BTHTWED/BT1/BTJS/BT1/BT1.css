@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(155, 148, 152, 0.425);
+}
+
+.div-hcn {
+    margin: 50px auto;
+    width: 480px;
+    text-align: left;
+    background-color: rgba(196, 112, 179, 0.466);
+    border: 5px solid white;
+}
+
+.dthcn {
+    text-align: center;
+    background-color: rgba(199, 166, 95, 0.658);
+}
+
+.form-hcm {
+    margin: 10px 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.form-label {
+    width: 100px;
+    display: block;
+    float: left;
+    margin-right: 80px;
+}
+
+input[type="text"][readonly] {
+    background-color: rgba(241, 109, 223, 0.616);
+}
+
+input[type="text"] {
+    border: 1px solid;
+    padding: 5px 3px;
+}
+
+input[type="text"]:hover {
+    background-color: rgba(228, 209, 168, 0.658);
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+.form-group1 {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.form-group1 input {
+    width: 80px;
+    padding: 5px 3px;
+}

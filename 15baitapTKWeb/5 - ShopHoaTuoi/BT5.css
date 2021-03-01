@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    background-image: url(./hinh/nen-hoa-hong.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 1300px 850px;
+    background-attachment: fixed;
+    /*background: color url no-repeat right*/
+}
+
+@font-face {
+    src: url(fonts/a.ttf);
+    font-family: Luong;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+marquee {
+    width: 50%;
+    font-family: Luong;
+    text-shadow: 2px 2px 15px rgba(245, 5, 137, 0.959);
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+img {
+    width: 480px;
+    height: 420px;
+    float: left;
+}
+
+div {
+    margin-left: 500px;
+    font-size: 18pt;
+}
+
+ol {
+    font-size: 18pt;
+}
+
+hr {
+    width: 600px;
+    margin-left: -25px;
+    height: 1px;
+}
+
+span {
+    background-color: #ff0099;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.ul_1 {
+    list-style-image: url(./hinh/bullet-hoa-tim.png);
+}
+
+.ul_2 {
+    list-style-image: url(./hinh/bullet-tron-hong.png);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 6, 169);
+}
+
+p {
+    margin-left: 10px;
+    color: rgb(155, 3, 201);
+    font-style: italic;
+    font-size: 15px;
+}

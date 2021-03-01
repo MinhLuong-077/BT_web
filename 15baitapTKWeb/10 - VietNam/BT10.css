@@ -1,0 +1,128 @@
+body {
+    background-image: url(./hinh/co-vietnam.png);
+    background-repeat: repeat-y;
+    font-size: 13pt;
+    background-position: 50% 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.to-top {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 9999;
+}
+
+body ul {
+    text-align: justify;
+}
+
+.h1_1 {
+    text-align: center;
+    color: red;
+}
+
+.img_1 {
+    float: left;
+}
+
+.img_2 {
+    float: right;
+    width: 360px;
+    height: 280px;
+}
+
+.a_1 {
+    position: fixed;
+    color: purple;
+    left: 92%;
+    top: 96%;
+}
+
+.h1_2 {
+    color: white;
+    background-color: red;
+}
+
+.img_3 {
+    float: left;
+    width: 300px;
+    height: 250px;
+    padding-right: 20px;
+}
+
+.img_4 {
+    height: 83px;
+    float: left;
+}
+
+.img_5 {
+    float: right;
+    width: 350px;
+    height: 250px;
+}
+
+.h1_3 {
+    text-align: left;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+.p2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cautrangtien {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 450px;
+}
+
+.img_6 {
+    float: left;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.img_7 {
+    width: 320px;
+    height: 200px;
+    padding-right: 10px;
+    float: left;
+}
+
+.img_8 {
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    float: right;
+}
+
+.newspaper {
+    column-count: 3;
+    column-rule: 2px dashed gray;
+}
+
+.h1_4 {
+    color: white;
+    background-color: rgb(241, 14, 230);
+    padding: 10px;
+}
+
+.img_9 {
+    float: left;
+}
+
+.img_10 {
+    width: 550px;
+    height: 300px;
+    margin-left: 25px;
+}

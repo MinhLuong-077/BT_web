@@ -1,0 +1,30 @@
+.style-body {
+    font-size: 15pt;
+}
+
+h2 {
+    color: white;
+    background-color: red
+}
+
+.img_1 {
+    float: left;
+    width: 300px;
+    height: 250px;
+    padding-right: 20px;
+}
+
+.img_2 {
+    height: 83px;
+}
+
+.img_3 {
+    float: right;
+    width: 350px;
+    height: 250px;
+}
+
+footer {
+    float: right;
+    color: purple;
+}

@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #AFA98D;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-conatiner {
+    background-color: #0D4C6F;
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    /* background-color: #0FF4C6; */
+}
+
+#title {
+    font-size: 1.8em;
+    color: #8E9C97;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 1.2em;
+}
+
+p {
+    /* width: 100%; */
+    padding: 0px;
+    color: #8E9C97;
+}
+
+#inline-input {
+    display: inline;
+}
+
+input {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    width: 90%;
+    border-radius: 2px;
+    background-color: #133A4A;
+    color: #8E9C97;
+    margin-top: 10px;
+    /* display: inline; */
+}
+
+#btn-result {
+    font-size: 1em;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    background-color: #8E9C97;
+    color: #FFFACD;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#btn-result:hover {
+    filter: brightness(1.2);
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+td {
+    /* margin: 10px; */
+    /* padding: 0px 20px; */
+    /* background-color: #bea618; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+}
+
+#container-btn {
+    justify-content: flex-end;
+}
+
+#img {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+#contain-img {
+    width: 100%;
+    padding: 0px;
+}
+
+#result {
+    color: #FFFACD;
+}
+
+@media (max-width: 786px) {
+    #form-conatiner {
+        width: 90%;
+        padding: 50px 10px;
+    }
+    table {
+        width: 90%;
+    }
+    tr {
+        flex-direction: column;
+    }
+    #btn-result {
+        /* margin: 30px; */
+    }
+}
